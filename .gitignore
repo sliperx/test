@@ -1,3 +1,4 @@
 tmp
 *.log
-y*
+y
+y.pub
