@@ -1,4 +1,4 @@
 FROM ubuntu
 RUN apt update && apt -y upgrade && apt install -y curl wget python3.12 && /
-    apt install -y nethogs
+apt install -y nethogs
 CMD tail -f /dev/null
