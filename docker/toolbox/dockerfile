@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN apt update && apd upgrade && apt install -y curl wget python bash
+RUN apt update && apt upgrade && apt install -y curl wget python bash
 CMD tail -f /dev/null
