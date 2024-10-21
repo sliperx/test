@@ -11,7 +11,7 @@ pipeline {
         timestamps()
     }
                 }
-            }
+            
         }
         stage("create docker image") {
             steps {
